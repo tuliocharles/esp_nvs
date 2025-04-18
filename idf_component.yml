@@ -1,0 +1,12 @@
+version: 0.0.0
+
+description: ESP_NVS
+
+url: https://github.com/tuliocharles/esp-nvs
+repository: https://github.com/tuliocharles/esp-nvs.git
+
+maintainers:
+  - "Túlio Carvalho <tulio.cefetmg@gmail.com"
+
+dependencies:
+  idf: ">=4.4"

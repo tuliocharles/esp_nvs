@@ -1,6 +1,10 @@
-version: 0.0.0
+license: MIT
 
-description: ESP_NVS
+description: TOP LEVEL NVS 
+  - This component is a wrapper for the ESP-IDF NVS component.
+  - It provides a simple interface for storing and retrieving data from NVS.
+  - It is designed to be used with the ESP-IDF framework.
+  - It is a lightweight and easy to use component that can be used in any ESP-IDF project.
 
 url: https://github.com/tuliocharles/esp-nvs
 repository: https://github.com/tuliocharles/esp-nvs.git

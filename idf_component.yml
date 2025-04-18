@@ -14,3 +14,11 @@ maintainers:
 
 dependencies:
   idf: ">=4.4"
+
+files:
+  excludes:
+    - build/
+    - sdkconfig
+    - "**/dependencies.lock"
+    - .vscode/
+    - dist/  

@@ -6,8 +6,8 @@ description: TOP LEVEL NVS
   - It is designed to be used with the ESP-IDF framework.
   - It is a lightweight and easy to use component that can be used in any ESP-IDF project.
 
-url: https://github.com/tuliocharles/esp-nvs
-repository: https://github.com/tuliocharles/esp-nvs.git
+url: https://github.com/tuliocharles/esp_nvs
+repository: https://github.com/tuliocharles/esp_nvs.git
 
 maintainers:
   - "Túlio Carvalho <tulio.cefetmg@gmail.com"

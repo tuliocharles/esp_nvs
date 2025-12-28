@@ -41,6 +41,7 @@ esp_err_t init_esp_nvs(esp_nvs_config_t *config, esp_nvs_handle_t *handle)
 
     // Initialize NVS
     ret = nvs_flash_init();
+    // Handle NVS initialization errors
     if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND)
     {
         ESP_ERROR_CHECK(nvs_flash_erase());

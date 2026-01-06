@@ -21,7 +21,7 @@ void app_main(void)
     esp_nvs_read_string(esp_nvs_handle, &value);
     printf("Read string: %s\n", value);
 
-    esp_nvs_delete_string(esp_nvs_handle);
+    //esp_nvs_delete_string(esp_nvs_handle);
 
     esp_nvs_read_string(esp_nvs_handle, &value);
     printf("Read string: %s\n", value);

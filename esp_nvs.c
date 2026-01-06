@@ -143,8 +143,6 @@ esp_err_t esp_nvs_read_string(esp_nvs_handle_t esp_nvs_handle, char **out_str)
         return ret;
     }
 
-    printf("required_size: %d\n", required_size);
-    printf("esp_nvs_handle->value_size: %d\n", esp_nvs_handle->value_size);
     if (required_size > esp_nvs_handle->value_size)
     {
         ESP_LOGE(TAG, "Buffer too small for string value");
